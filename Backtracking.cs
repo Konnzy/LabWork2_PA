@@ -41,7 +41,7 @@ public class Backtracking
         }
         return true;
     }
-    public bool Backtrack()
+    private bool Backtrack()
     {
         Iterations++;
         
@@ -97,5 +97,6 @@ public class Backtracking
         Backtrack();
         return VertexColor;
     }
+
 
 }
