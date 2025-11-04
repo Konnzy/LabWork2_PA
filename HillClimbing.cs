@@ -12,7 +12,6 @@ public class HillClimbing
     public int TotalNodes => Iterations;
     public int MaxNodesInMemory { get; private set; }
     public int DeadEnds { get; private set; }
-    public int StartVertex { get; set; } = 1;
 
     public HillClimbing(int[,] adjacencyMatrix)
     {
@@ -197,4 +196,5 @@ public class HillClimbing
     }
 
     private bool RandomTie() => _rand.Next(2) == 0;
+
 }
