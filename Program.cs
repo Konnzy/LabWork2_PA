@@ -8,7 +8,7 @@
 
     class Program
     {
-        public static List<string> Regions = new List<string>
+        public static List<string> Regions = new()
         {
             "Vinnytska", "Volynska", "Dnipropetrovska", "Donetska", "Zhytomyrska", "Zakarpatska", "Zaporizka",
             "Ivano-Frankivska", "Kyivska",
@@ -119,4 +119,5 @@
             Console.ResetColor();
         }
     }
+
 }
